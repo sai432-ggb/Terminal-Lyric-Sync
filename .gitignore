@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Distribution / build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# IDE/editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs / temp
+*.log
+*.tmp
+
+# Environment / secrets
+.env
+.env.*
+
+# Generated audio (remove if you DO want to keep audio files under version control)
+song_lyrics.mp3
+*.mp3
+*.wav
+*.ogg
+
+# Tool-specific / problematic packages you installed locally
+pipwin/
+js2py/
+
+# Optional outputs folder
+outputs/
